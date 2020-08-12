@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons.Introduction">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/intoduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="#38F7F7F7"
+        android:text="دالة الاخراج"
+        android:textAlignment="center"
+        android:textColor="#FF7CCBEA"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" >
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:layout_margin="10dp"
+               android:layout_marginTop="15dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/cout"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_margin="10dp"
+               android:layout_marginTop="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/cout_prog"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_margin="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_margin="10dp"
+               android:layout_marginTop="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/cout_prog3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="20dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/table"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/cout_prog4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:src="@drawable/pi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/pi_last"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/test"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/ColorFont"
+               android:textSize="20sp"
+               android:text="@string/iostream11"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/test2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <LinearLayout
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="5dp"
+               android:orientation="horizontal"
+               android:weightSum="3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+
+               <EditText
+                   android:textColor="@android:color/black"
+                   android:textSize="25sp"
+                   android:hint="Enter the code"
+                   android:id="@+id/txtIostream"
+                   android:layout_weight="2"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"/>
+
+
+               <Button
+                   android:id="@+id/btnIostream"
+                   android:textColor="@android:color/white"
+                   android:textSize="20sp"
+                   android:background="@drawable/btn_state"
+                   android:textAllCaps="false"
+                   android:text="Test"
+                   android:layout_weight="1"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"/>
+
+
+
+           </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

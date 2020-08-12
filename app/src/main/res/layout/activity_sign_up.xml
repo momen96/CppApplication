@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    tools:context=".Authentication.SignUp">
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/cpp" />
+
+    <EditText
+        android:id="@+id/txtUserNameSignUp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:cursorVisible="true"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/user"
+        android:hint="User name "
+        android:textColorHint="#3B6097"
+        android:background="@drawable/custom_edit_text"
+        android:ems="10"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9E9ED3"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <EditText
+        android:id="@+id/txtEmailSignUp"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:cursorVisible="true"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/email"
+        android:hint="Email address"
+        android:textColorHint="#3B6097"
+        android:background="@drawable/custom_edit_text"
+        android:ems="10"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9E9ED3"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/txtPasswordSignUp"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/password"
+        android:textSize="20sp"
+        android:textColorHint="#3B6097"
+        android:hint="Password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/progressBarSignUp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_state"
+        android:textAlignment="center"
+        android:text=" Sign Up "
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+
+
+</LinearLayout>

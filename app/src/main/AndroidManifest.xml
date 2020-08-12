@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.momen.cppproject">
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Lessons.Access"></activity>
+        <activity android:name=".Lessons.Polymorphism" />
+        <activity android:name=".Lessons.Inheritance" />
+        <activity android:name=".Lessons.Encapsulation" />
+        <activity android:name=".Lessons.Classes" />
+        <activity android:name=".Lessons.Oop" />
+        <activity android:name=".Lessons.Structures" />
+        <activity android:name=".Lessons.Functions" />
+        <activity android:name=".Lessons.Array2d" />
+        <activity android:name=".Lessons.Arrays" />
+        <activity android:name=".Lessons.DoWhile" />
+        <activity android:name=".Lessons.While" />
+        <activity android:name=".Lessons.Loops" />
+        <activity android:name=".Lessons.Switch" />
+        <activity android:name=".Lessons.ifStatment" />
+        <activity android:name=".Lessons.MathmaticOperations" />
+        <activity android:name=".Lessons.Logical" />
+        <activity android:name=".Lessons.ArthmeticLogical" />
+        <activity android:name=".Lessons.Cin" />
+        <activity android:name=".Lessons.Iostream" />
+        <activity android:name=".Lessons.Variables" />
+        <activity android:name=".Lessons.General_Structure" />
+        <activity android:name=".Lessons.Introduction" />
+        <activity android:name=".Authentication.welcomeScreen" />
+        <activity android:name=".Authentication.Login" />
+        <activity android:name=".Authentication.SignUp" />
+        <activity android:name=".splash_screen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

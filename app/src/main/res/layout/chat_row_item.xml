@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_chat">
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_view"
+                android:gravity="center|top"
+                android:padding="30dp"
+                android:text=" hello my friends"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/txt_view_email"
+                android:fontFamily="@font/myfont"
+                android:text="momen@gmail.com"
+                android:textColor="@android:color/white"
+                android:textColorLink="#5C043A57"
+                app:layout_constraintBottom_toTopOf="@+id/view"
+                app:layout_constraintStart_toStartOf="@+id/txtMessage"
+                app:layout_constraintTop_toBottomOf="@+id/txtMessage" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

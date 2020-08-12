@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "286500406718",
+    "firebase_url": "https://authentication-d4aef.firebaseio.com",
+    "project_id": "authentication-d4aef",
+    "storage_bucket": "authentication-d4aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286500406718:android:9a0a2cc72a764c864ca5ef",
+        "android_client_info": {
+          "package_name": "com.momen.cppproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286500406718-6bbhqk8ku525i54lis8k1v36vch9c845.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momen.cppproject",
+            "certificate_hash": "ba0e91cb372eaf15d1e5824403fb9b3893538718"
+          }
+        },
+        {
+          "client_id": "286500406718-47nalov6dcqhin329d61glqqbqrq2m1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQIMkzTPfideqLlSYEJ3bIHRwSS3-dls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286500406718-47nalov6dcqhin329d61glqqbqrq2m1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

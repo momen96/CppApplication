@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons.Introduction">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/intoduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="#38F7F7F7"
+        android:text="العمليات الرياضية"
+        android:textAlignment="center"
+        android:textColor="#FF7CCBEA"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/logic"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="126dp"
+                android:src="@drawable/operations" />
+
+            <TextView
+                android:text="@string/logic2"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="@string/logic3"
+                android:textColor="@color/ColorFont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:src="@drawable/sum" />
+
+            <TextView
+                android:text="@string/logic4"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:background="#54699087"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="الرموز العلائقية "
+                android:textColor="#8D23C1"
+                android:textSize="35sp" />
+
+
+            <TextView
+                android:text="@string/logic5"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/relation_symbols"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:background="#54699087"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center_horizontal"
+                android:text=" معاملات الزيادة و النقصان"
+                android:textColor="#8D23C1"
+                android:textSize="35sp" />
+
+            <TextView
+                android:text="@string/logic6"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="153dp"
+                android:src="@drawable/increment" />
+
+            <TextView
+                android:text="@string/logic7"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:src="@drawable/decrement" />
+
+            <TextView
+                android:text="@string/logic8"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:background="#54699087"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center_horizontal"
+                android:text="الفرق بين (x++   ,  ++x)"
+                android:textColor="#8D23C1"
+                android:textSize="35sp" />
+
+            <TextView
+                android:text="@string/logic9"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:src="@drawable/different_code" />
+
+            <TextView
+                android:text="@string/logic10"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+                android:src="@drawable/different_code2" />
+
+            <TextView
+                android:text="@string/logic11"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/ColorFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

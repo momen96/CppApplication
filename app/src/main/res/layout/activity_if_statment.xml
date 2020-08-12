@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons.Introduction">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/intoduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="#38F7F7F7"
+        android:text="العبارة الشرطية (if)"
+        android:textAlignment="center"
+        android:textColor="#FF7CCBEA"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" >
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/if_statement" />
+
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If2"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If3"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If4"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If5"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/if_example"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="3dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If6"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:gravity="center"
+               android:textSize="35sp"
+               android:textColor="@android:color/black"
+               android:background="#58533CD2"
+               android:text="if--else"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="3dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If7"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/if_else"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="3dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If8"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/if_example2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If9"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:gravity="center"
+               android:textSize="35sp"
+               android:textColor="@android:color/black"
+               android:background="#58533CD2"
+               android:text="if--else if"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If10"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/if_elseif"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="10dp"
+               android:text="@string/If11"
+               android:textStyle="bold"
+               android:textSize="19dp"
+               android:textColor="@color/ColorFont"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <ImageView
+               android:src="@drawable/if_example3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
